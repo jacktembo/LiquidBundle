@@ -34,5 +34,5 @@ class SavedTransactionAdmin(admin.ModelAdmin):
 
 @admin.register(CompletedTransaction)
 class CompletedTransactionAdmin(admin.ModelAdmin):
-    list_display = ['date_time_created', 'type', 'amount']
+    list_display = ['date_time_created', 'type', 'package', 'lte_number', 'user']
 

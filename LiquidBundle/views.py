@@ -32,6 +32,9 @@ def reduce_amount(request):
 
         r = requests.post(url, data=json.dumps(data))
         if r.json().get('Code', 1) == '000':
+            CompletedTransaction.objects.create(
+                type='Sale', lte_number='N/A', user=request.user
+            )
             context = {
                 'transaction_token': transaction_token,
             }

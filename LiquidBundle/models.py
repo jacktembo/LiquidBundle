@@ -22,7 +22,12 @@ class LiquidDataPackage(models.Model):
 class CompletedTransaction(models.Model):
     date_time_created = models.DateTimeField(auto_now_add=True)
     type = models.CharField(max_length=255)
-    amount = models.FloatField()
+    package = models.ForeignKey(LiquidDataPackage, on_delete=models.CASCADE, blank=True, null=True)
+    lte_number = models.CharField(max_length=255)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f"{self.lte_number} - {self.package}"
 
 
 class SavedTransaction(models.Model):
