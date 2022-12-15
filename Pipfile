@@ -11,6 +11,7 @@ selenium = "*"
 beautifulsoup4 = "*"
 geckodriver-autoinstaller = "*"
 pillow = "*"
+whitenoise = "*"
 
 [dev-packages]
 
