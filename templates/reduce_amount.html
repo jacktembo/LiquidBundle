@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block title %}Reduce Amount{% endblock %}
+{% block stylesheet %}
+    <style>
+    body {
+        border: 3px solid orange;
+        background-color: #f5f1f1;
+    }
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        text-align: center;
+        font-size: 150%;
+        margin: 1rem;
+        border: 2px solid orange;
+    }
+    input {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    button {
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+    }
+    </style>
+{% endblock %}
+{% block content %}
+    <h1>Reduce Payment Amount</h1>
+    <div class="main">
+    <form action="{% url 'reduce-amount' %}" method="post">
+    {% csrf_token %}
+        <select class="form-select" aria-label="Default select example" required name="service-company">
+            <option selected disabled>Choose Service Company..</option>
+            {% for service_company in service_companies %}
+                <option value="{{ service_company.id }}">{{ service_company.name }}</option>
+            {% endfor %}
+
+        </select>
+        <div class="mb-3">
+{#            <label for="exampleFormControlInput1" class="form-label">Payment Link (URL)</label>#}
+            <input type="text" class="form-control" id="exampleFormControlInput1" required name="payment-url" placeholder="Payment Link">
+        </div>
+        <button type="submit" class="btn btn-warning">Get Discount</button>
+    </form>
+    </div>
+{% endblock %}

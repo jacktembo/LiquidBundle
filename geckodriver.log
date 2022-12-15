@@ -1,0 +1,1498 @@
+1670689508572	geckodriver	INFO	Listening on 127.0.0.1:54527
+1670689508812	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41023" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVuRkL5"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670689524609	Marionette	INFO	Marionette enabled
+1670689524761	Marionette	INFO	Listening on port 40795
+WebDriver BiDi listening on ws://localhost:41023
+Read port: 40795
+Read port: 40795
+Read port: 40795
+1670689527877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVuRkL5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41023/devtools/browser/682f2b98-9869-49d2-9e6c-5472d02333d3
+JavaScript error: https://jacktembo.com/assets/js/main.js, line 12: SyntaxError: Document.querySelector: '' is not a valid selector
+1670689591668	Marionette	INFO	Stopped listening on port 40795
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670689621270	geckodriver	INFO	Listening on 127.0.0.1:38293
+1670689621664	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41571" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileA4fKRH"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670689627525	Marionette	INFO	Marionette enabled
+1670689627539	Marionette	INFO	Listening on port 45449
+Read port: 45449
+WebDriver BiDi listening on ws://localhost:41571
+1670689628631	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileA4fKRH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41571/devtools/browser/9442e92e-a0e4-4784-b451-8d2766e629a5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1670698397802	Marionette	INFO	Stopped listening on port 45449
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670699283989	geckodriver	INFO	Listening on 127.0.0.1:36673
+1670699284543	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42869" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile43AV7y"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670699292587	Marionette	INFO	Marionette enabled
+1670699292607	Marionette	INFO	Listening on port 33685
+Read port: 33685
+WebDriver BiDi listening on ws://localhost:42869
+1670699294069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile43AV7y/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42869/devtools/browser/3cbd6856-44e5-499f-85f7-c31c4da9507b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967342/layout42, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967342/layout42, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967347/layout23, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967347/layout23, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967346/layout23, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967346/layout23, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967349/layout23, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967349/layout23, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967351/layout23, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967351/layout23, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967353/layout23, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967353/layout23, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967355/layout23, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967355/layout23, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:171:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:449:35\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.warn: "Inspector destroyed while executing onReflow callback"
+console.warn: "Inspector destroyed while executing onReflow callback"
+console.warn: "Inspector destroyed while executing onReflow callback"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1670699422134	Marionette	INFO	Stopped listening on port 33685
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670699564638	geckodriver	INFO	Listening on 127.0.0.1:51103
+1670699565163	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56739" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNrovfO"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670699574168	Marionette	INFO	Marionette enabled
+1670699574221	Marionette	INFO	Listening on port 32827
+WebDriver BiDi listening on ws://localhost:56739
+Read port: 32827
+Read port: 32827
+1670699575789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNrovfO/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 766))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:56739/devtools/browser/2dce372e-11cf-4f5e-8437-f0b101c43974
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670699906893	geckodriver	INFO	Listening on 127.0.0.1:44085
+1670699908556	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59577" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebnFiET"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670699918116	Marionette	INFO	Marionette enabled
+1670699918131	Marionette	INFO	Listening on port 37545
+Read port: 37545
+WebDriver BiDi listening on ws://localhost:59577
+Read port: 37545
+1670699920117	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebnFiET/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59577/devtools/browser/b6c221d1-5b0f-4a06-b0f5-ea79147d6417
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1670700783303	Marionette	INFO	Stopped listening on port 32827
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1670700790705	Marionette	INFO	Stopped listening on port 37545
+1670700805226	geckodriver	INFO	Listening on 127.0.0.1:45519
+1670700805683	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38409" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenyoWl2"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670700820094	Marionette	INFO	Marionette enabled
+1670700820114	Marionette	INFO	Listening on port 39375
+WebDriver BiDi listening on ws://localhost:38409
+Read port: 39375
+Read port: 39375
+Read port: 39375
+1670700824129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenyoWl2/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 766))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:38409/devtools/browser/17bb1775-eca1-4efa-96d9-bad1e9fa06f9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670701158054	Marionette	INFO	Stopped listening on port 39375
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670701167287	geckodriver	INFO	Listening on 127.0.0.1:48417
+1670701167636	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45747" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefPN7Z7"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670701172003	Marionette	INFO	Marionette enabled
+1670701172017	Marionette	INFO	Listening on port 46385
+WebDriver BiDi listening on ws://localhost:45747
+Read port: 46385
+1670701172867	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefPN7Z7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45747/devtools/browser/86a9c026-877e-4030-a077-b4281ff67042
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670701638923	geckodriver	INFO	Listening on 127.0.0.1:53715
+1670701639630	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60331" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileeAqOPF"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670701665716	Marionette	INFO	Marionette enabled
+1670701665861	Marionette	INFO	Listening on port 43479
+WebDriver BiDi listening on ws://localhost:60331
+Read port: 43479
+Read port: 43479
+Read port: 43479
+Read port: 43479
+Read port: 43479
+Read port: 43479
+Read port: 43479
+Read port: 43479
+Read port: 43479
+Read port: 43479
+Read port: 43479
+1670701678241	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeAqOPF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60331/devtools/browser/3f7b927e-38a2-44ba-9c55-dcbb901bd9d1
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1670701777251	Marionette	INFO	Stopped listening on port 43479
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1670701815768	Marionette	INFO	Stopped listening on port 46385
+1670701888845	geckodriver	INFO	Listening on 127.0.0.1:33771
+1670701889503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39511" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAS7QOD"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670701900479	Marionette	INFO	Marionette enabled
+1670701900505	Marionette	INFO	Listening on port 39727
+WebDriver BiDi listening on ws://localhost:39511
+Read port: 39727
+Read port: 39727
+1670701902100	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAS7QOD/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 766))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:39511/devtools/browser/122908c0-7312-4fdf-88b9-ad4ff007353c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+JavaScript error: https://static.zdassets.com/web_widget/latest/classic/web-widget-classic-4212808.js, line 1: ChunkLoadError: Loading chunk 6722 failed.
+(error: https://static.zdassets.com/web_widget/latest/classic/web-widget-6722-4212808.js)
+1670702004681	Marionette	INFO	Stopped listening on port 39727
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670729787986	geckodriver	INFO	Listening on 127.0.0.1:47767
+1670729788504	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46051" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileU4Sx9Y"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670729789837	Marionette	INFO	Marionette enabled
+1670729789857	Marionette	INFO	Listening on port 43605
+WebDriver BiDi listening on ws://localhost:46051
+Read port: 43605
+1670729790619	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileU4Sx9Y/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 766))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:46051/devtools/browser/db83aa18-5e8a-4a53-8735-c24707bcc6ea
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1624: Error: permitUnload is already running for this tab.
+1670729824627	Marionette	INFO	Stopped listening on port 43605
+JavaScript error: chrome://browser/content/browser.js, line 7986: uncaught exception: undefined
+1670729926390	geckodriver	INFO	Listening on 127.0.0.1:43689
+1670729926678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34183" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6gQ86P"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670729932120	Marionette	INFO	Marionette enabled
+1670729932139	Marionette	INFO	Listening on port 44449
+WebDriver BiDi listening on ws://localhost:34183
+Read port: 44449
+1670729933253	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6gQ86P/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:34183/devtools/browser/f24b3e73-cf74-4efe-8c6f-2bbcf0fcb569
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670730006437	Marionette	INFO	Stopped listening on port 44449
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1670730128513	geckodriver	INFO	Listening on 127.0.0.1:34145
+1670730128735	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33809" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehgt0HJ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670730130713	Marionette	INFO	Marionette enabled
+1670730130720	Marionette	INFO	Listening on port 46771
+WebDriver BiDi listening on ws://localhost:33809
+Read port: 46771
+1670730131529	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehgt0HJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33809/devtools/browser/259414dc-b238-47b6-be3e-2f030d9973e7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670730213698	geckodriver	INFO	Listening on 127.0.0.1:40319
+1670730213796	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36651" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWagOyS"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670730220646	Marionette	INFO	Marionette enabled
+1670730220676	Marionette	INFO	Listening on port 46023
+Read port: 46023
+WebDriver BiDi listening on ws://localhost:36651
+Read port: 46023
+1670730222709	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWagOyS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36651/devtools/browser/ae4a7ce8-95c4-4bf2-b3cb-ae089f80a5c2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670730309579	Marionette	INFO	Stopped listening on port 46023
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670730315428	Marionette	INFO	Stopped listening on port 46771
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1670730373261	geckodriver	INFO	Listening on 127.0.0.1:54385
+1670730373906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33471" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePsxNfy"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670730381242	Marionette	INFO	Marionette enabled
+1670730381259	Marionette	INFO	Listening on port 34733
+WebDriver BiDi listening on ws://localhost:33471
+Read port: 34733
+1670730382459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePsxNfy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33471/devtools/browser/389e4d62-7a3e-473b-ae6a-fbdad302af1f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670730522600	geckodriver	INFO	Listening on 127.0.0.1:43593
+1670730523163	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33299" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHOHMGz"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670730524375	Marionette	INFO	Marionette enabled
+1670730524383	Marionette	INFO	Listening on port 46681
+WebDriver BiDi listening on ws://localhost:33299
+Read port: 46681
+1670730525255	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHOHMGz/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 766))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:33299/devtools/browser/a4b25e4c-5cba-451a-bb44-60a4ecc44c09
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1670730723697	Marionette	INFO	Stopped listening on port 34733
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670730726833	Marionette	INFO	Stopped listening on port 46681
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670730735012	geckodriver	INFO	Listening on 127.0.0.1:38829
+1670730735564	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38979" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilen0SEjx"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670730742411	Marionette	INFO	Marionette enabled
+1670730742453	Marionette	INFO	Listening on port 37547
+WebDriver BiDi listening on ws://localhost:38979
+Read port: 37547
+1670730743525	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilen0SEjx/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:38979/devtools/browser/34ccec4e-a55f-4ad3-a082-b17870f01528
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1670731099461	Marionette	INFO	Stopped listening on port 37547
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1670731103112	geckodriver	INFO	Listening on 127.0.0.1:41081
+1670731103676	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60841" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2BJ0sy"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670731104848	Marionette	INFO	Marionette enabled
+1670731104855	Marionette	INFO	Listening on port 44289
+WebDriver BiDi listening on ws://localhost:60841
+Read port: 44289
+1670731105700	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2BJ0sy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60841/devtools/browser/42690668-597b-4e36-ba6a-1cbb074fcd61
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670731116931	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1670731120519	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1670731151523	Marionette	INFO	Stopped listening on port 44289
+1670731154798	geckodriver	INFO	Listening on 127.0.0.1:42909
+1670731155360	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41143" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6K8hYd"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670731156548	Marionette	INFO	Marionette enabled
+1670731156572	Marionette	INFO	Listening on port 41687
+WebDriver BiDi listening on ws://localhost:41143
+Read port: 41687
+1670731157345	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6K8hYd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41143/devtools/browser/930443f5-4a37-4706-8230-c2afa426933d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670731512918	geckodriver	INFO	Listening on 127.0.0.1:49287
+1670731513585	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42065" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQOwEdA"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670731516209	Marionette	INFO	Marionette enabled
+1670731516247	Marionette	INFO	Listening on port 34717
+WebDriver BiDi listening on ws://localhost:42065
+Read port: 34717
+Read port: 34717
+1670731517656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQOwEdA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42065/devtools/browser/27ea266a-4f49-4140-93f4-1dd85a5dd975
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670731553035	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1670731594222	Marionette	INFO	Stopped listening on port 34717
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670731607253	Marionette	INFO	Stopped listening on port 41687
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1670731673812	geckodriver	INFO	Listening on 127.0.0.1:46957
+1670731674466	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50847" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileV8mxEu"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670731684448	Marionette	INFO	Marionette enabled
+1670731684467	Marionette	INFO	Listening on port 43297
+Read port: 43297
+WebDriver BiDi listening on ws://localhost:50847
+Read port: 43297
+1670731688284	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileV8mxEu/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 766))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:50847/devtools/browser/f8747d5a-2f80-4e26-a0d6-3f4ee93b7716
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670731799361	Marionette	INFO	Stopped listening on port 43297
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670732264033	geckodriver	INFO	Listening on 127.0.0.1:46675
+1670732264599	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57529" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFXFRDp"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670732266080	Marionette	INFO	Marionette enabled
+1670732266088	Marionette	INFO	Listening on port 37433
+WebDriver BiDi listening on ws://localhost:57529
+Read port: 37433
+1670732266912	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFXFRDp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57529/devtools/browser/312e781d-10d4-4c2e-8bad-f0b90c1132b8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670732302354	Marionette	INFO	Stopped listening on port 37433
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670732340291	geckodriver	INFO	Listening on 127.0.0.1:58319
+1670732340829	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44063" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejcsPRa"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670732342192	Marionette	INFO	Marionette enabled
+1670732342199	Marionette	INFO	Listening on port 34627
+WebDriver BiDi listening on ws://localhost:44063
+Read port: 34627
+1670732342817	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejcsPRa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44063/devtools/browser/ba1a07d5-ca67-4e96-9d0d-7b37f24163ba
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670732422613	Marionette	INFO	Stopped listening on port 34627
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670732615700	geckodriver	INFO	Listening on 127.0.0.1:40253
+1670732615769	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezckQjc"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670732621137	Marionette	INFO	Marionette enabled
+1670732621190	Marionette	INFO	Listening on port 42425
+WebDriver BiDi listening on ws://localhost:53131
+Read port: 42425
+Read port: 42425
+1670732623232	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezckQjc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53131/devtools/browser/4756c4b8-361c-45b4-8e54-faf0da3a3713
+1670732735853	Marionette	INFO	Stopped listening on port 42425
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670732755921	geckodriver	INFO	Listening on 127.0.0.1:39195
+1670732756680	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39441" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZce5GQ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670732765468	Marionette	INFO	Marionette enabled
+1670732765483	Marionette	INFO	Listening on port 33263
+Read port: 33263
+WebDriver BiDi listening on ws://localhost:39441
+1670732766838	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZce5GQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39441/devtools/browser/3ca944b1-24ee-4f39-9049-501e0394f7e7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670732810905	Marionette	INFO	Stopped listening on port 33263
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670732852043	geckodriver	INFO	Listening on 127.0.0.1:57247
+1670732852143	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49647" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOFcoE5"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670732854415	Marionette	INFO	Marionette enabled
+1670732854422	Marionette	INFO	Listening on port 40153
+WebDriver BiDi listening on ws://localhost:49647
+Read port: 40153
+1670732855248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOFcoE5/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 766))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:49647/devtools/browser/d0ade302-4a8c-474d-87aa-487b395bbc52
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670732890500	Marionette	INFO	Stopped listening on port 40153
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670732896483	geckodriver	INFO	Listening on 127.0.0.1:56115
+1670732896970	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49631" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVO5mxE"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670732898629	Marionette	INFO	Marionette enabled
+1670732898637	Marionette	INFO	Listening on port 35427
+WebDriver BiDi listening on ws://localhost:49631
+Read port: 35427
+1670732899315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVO5mxE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49631/devtools/browser/ed2dc3a9-7886-4539-8920-ca2e3a4b1faf
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670733296719	Marionette	INFO	Stopped listening on port 35427
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  Message: StorageError: Storage error: Error: IndexedDB: security-state/intermediates list() IndexedDB:  execute() The application is shutting down
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.jsm:162:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.jsm:886:14
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:774:38
+observe@resource://gre/modules/AsyncShutdown.jsm:576:16
+
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+1670733443350	geckodriver	INFO	Listening on 127.0.0.1:56747
+1670733443531	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41869" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyD1Sj0"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670733446096	Marionette	INFO	Marionette enabled
+1670733446104	Marionette	INFO	Listening on port 43745
+WebDriver BiDi listening on ws://localhost:41869
+Read port: 43745
+1670733447133	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyD1Sj0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41869/devtools/browser/8523214c-9dbb-4413-bee0-243ec0f08ccf
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670733493095	Marionette	INFO	Stopped listening on port 43745
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670733496825	geckodriver	INFO	Listening on 127.0.0.1:38933
+1670733497387	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56825" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuBrwb8"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670733498615	Marionette	INFO	Marionette enabled
+1670733498621	Marionette	INFO	Listening on port 42519
+WebDriver BiDi listening on ws://localhost:56825
+Read port: 42519
+1670733499348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuBrwb8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56825/devtools/browser/2f2983dd-04bd-488c-9824-3048b76701b6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1670734094377	Marionette	INFO	Stopped listening on port 42519
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1670734099850	geckodriver	INFO	Listening on 127.0.0.1:41969
+1670734099946	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54005" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileywSHDM"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670734101320	Marionette	INFO	Marionette enabled
+1670734101329	Marionette	INFO	Listening on port 46183
+WebDriver BiDi listening on ws://localhost:54005
+Read port: 46183
+1670734102101	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileywSHDM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54005/devtools/browser/1f45ca02-ab35-4443-b38e-2964217feb13
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1670734340568	Marionette	INFO	Stopped listening on port 46183
+1670734452312	geckodriver	INFO	Listening on 127.0.0.1:45163
+1670734452891	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39101" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerYSoJ3"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670734454036	Marionette	INFO	Marionette enabled
+1670734454042	Marionette	INFO	Listening on port 44635
+WebDriver BiDi listening on ws://localhost:39101
+Read port: 44635
+1670734454751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerYSoJ3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39101/devtools/browser/9f0404cd-8f99-4c5d-8e96-ede6b1e265b6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670734604207	Marionette	INFO	Stopped listening on port 44635
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670734608059	geckodriver	INFO	Listening on 127.0.0.1:34157
+1670734608621	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37951" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOe8EjI"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670734609831	Marionette	INFO	Marionette enabled
+1670734609840	Marionette	INFO	Listening on port 39575
+WebDriver BiDi listening on ws://localhost:37951
+Read port: 39575
+1670734610581	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOe8EjI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37951/devtools/browser/3e59a660-4548-4114-b8f7-7c9fcb513910
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670734801538	geckodriver	INFO	Listening on 127.0.0.1:36385
+1670734801616	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47917" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTkij8G"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670734803427	Marionette	INFO	Marionette enabled
+1670734803434	Marionette	INFO	Listening on port 43835
+WebDriver BiDi listening on ws://localhost:47917
+Read port: 43835
+1670734804754	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTkij8G/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47917/devtools/browser/c7583b44-94bc-49dc-9926-309edb5a8c52
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670734877118	Marionette	INFO	Stopped listening on port 43835
+1670734895599	geckodriver	INFO	Listening on 127.0.0.1:36795
+1670734896240	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46247" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiGyQGH"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670734905478	Marionette	INFO	Marionette enabled
+1670734905490	Marionette	INFO	Listening on port 36785
+WebDriver BiDi listening on ws://localhost:46247
+Read port: 36785
+1670734906752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiGyQGH/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 766))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:46247/devtools/browser/b013233d-cc3a-444b-b90a-434b9495a341
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670735050945	geckodriver	INFO	Listening on 127.0.0.1:59629
+1670735051514	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49581" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileF6cbyz"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670735067732	Marionette	INFO	Marionette enabled
+1670735067813	Marionette	INFO	Listening on port 41731
+WebDriver BiDi listening on ws://localhost:49581
+Read port: 41731
+Read port: 41731
+1670735070146	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileF6cbyz/search.json.mozlz4", (void 0)))
+1670735095377	Marionette	INFO	Stopped listening on port 36785
+1670735099344	Marionette	INFO	Stopped listening on port 39575
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+DevTools listening on ws://localhost:49581/devtools/browser/ef59f300-eab6-43ed-8578-cb6ad4b72b84
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+JavaScript error: resource://autofill/FormAutofillHandler.jsm, line 1394: TypeError: this.window is null
+1670735111032	Marionette	INFO	Stopped listening on port 41731
+1670735129101	geckodriver	INFO	Listening on 127.0.0.1:34515
+1670735129273	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47473" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegYSFuQ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670735132042	Marionette	INFO	Marionette enabled
+1670735132049	Marionette	INFO	Listening on port 36937
+WebDriver BiDi listening on ws://localhost:47473
+Read port: 36937
+1670735132907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegYSFuQ/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 766))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:47473/devtools/browser/332f8d4a-149d-44cf-8c22-04cd1b0b16c0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670735212034	Marionette	INFO	Stopped listening on port 36937
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670735215920	geckodriver	INFO	Listening on 127.0.0.1:40933
+1670735216482	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56243" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUM9cRz"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670735217646	Marionette	INFO	Marionette enabled
+1670735217652	Marionette	INFO	Listening on port 37799
+WebDriver BiDi listening on ws://localhost:56243
+Read port: 37799
+1670735218409	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUM9cRz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56243/devtools/browser/e4848a43-9b6d-48e4-9374-2723008106ec
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670735244763	Marionette	INFO	Stopped listening on port 37799
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1670735254452	geckodriver	INFO	Listening on 127.0.0.1:57325
+1670735255023	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45297" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2boZBj"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670735256871	Marionette	INFO	Marionette enabled
+1670735256877	Marionette	INFO	Listening on port 33567
+WebDriver BiDi listening on ws://localhost:45297
+Read port: 33567
+1670735257637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2boZBj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45297/devtools/browser/61df90d5-4fca-4799-a0db-2fbdd2c39ee3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670735290443	Marionette	INFO	Stopped listening on port 33567
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670735302210	geckodriver	INFO	Listening on 127.0.0.1:37741
+1670735302322	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44241" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqsK0lE"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670735303695	Marionette	INFO	Marionette enabled
+1670735303702	Marionette	INFO	Listening on port 38719
+WebDriver BiDi listening on ws://localhost:44241
+Read port: 38719
+1670735304484	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqsK0lE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44241/devtools/browser/b58a0857-8a37-4d88-8ca5-eb82330b0207
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+[Parent 88926, Main Thread] WARNING: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:88926): GLib-GObject-CRITICAL **: 07:09:56.000: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Parent 88926, Main Thread] WARNING: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:88926): GLib-GObject-CRITICAL **: 07:09:56.000: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Parent 88926, Main Thread] WARNING: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:88926): GLib-GObject-CRITICAL **: 07:09:56.000: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Parent 88926, Main Thread] WARNING: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:88926): GLib-GObject-CRITICAL **: 07:09:56.001: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Parent 88926, Main Thread] WARNING: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:88926): GLib-GObject-CRITICAL **: 07:09:56.001: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Parent 88926, Main Thread] WARNING: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:88926): GLib-GObject-CRITICAL **: 07:09:56.005: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Parent 88926, Main Thread] WARNING: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:88926): GLib-GObject-CRITICAL **: 07:09:56.099: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Parent 88926, Main Thread] WARNING: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:88926): GLib-GObject-CRITICAL **: 07:09:56.232: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Parent 88926, Main Thread] WARNING: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:88926): GLib-GObject-CRITICAL **: 07:09:56.233: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Parent 88926, Main Thread] WARNING: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:88926): GLib-GObject-CRITICAL **: 07:10:03.212: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Parent 88926, Main Thread] WARNING: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:88926): GLib-GObject-CRITICAL **: 07:10:03.631: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1670735586893	Marionette	INFO	Stopped listening on port 38719
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1670744019042	geckodriver	INFO	Listening on 127.0.0.1:43133
+1670744019605	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43773" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7IOfUG"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670744021501	Marionette	INFO	Marionette enabled
+1670744021522	Marionette	INFO	Listening on port 45867
+WebDriver BiDi listening on ws://localhost:43773
+Read port: 45867
+1670744023308	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7IOfUG/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:43773/devtools/browser/875ef0a9-6417-4851-9aae-95c4b49907bf
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670744092332	Marionette	INFO	Stopped listening on port 45867
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670744107407	geckodriver	INFO	Listening on 127.0.0.1:38627
+1670744107603	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50535" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelTJt6k"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670744112253	Marionette	INFO	Marionette enabled
+1670744112360	Marionette	INFO	Listening on port 41785
+WebDriver BiDi listening on ws://localhost:50535
+Read port: 41785
+1670744113687	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelTJt6k/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 766))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:50535/devtools/browser/0c790ee4-21a9-4df4-a9fc-3e5c6b3ccdb4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1670744617396	Marionette	INFO	Stopped listening on port 41785
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670754091345	geckodriver	INFO	Listening on 127.0.0.1:56755
+1670754092007	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56061" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileO5Zppg"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670754102247	Marionette	INFO	Marionette enabled
+1670754102265	Marionette	INFO	Listening on port 40769
+WebDriver BiDi listening on ws://localhost:56061
+Read port: 40769
+Read port: 40769
+1670754104037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileO5Zppg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56061/devtools/browser/40d0e02d-15ec-4b78-8862-2d652bd4e395
+1670754122377	Marionette	INFO	Stopped listening on port 40769
+console.warn: SearchService: "#init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+!!! error running onStopped callback: TypeError: callback is not a function
+1671096472757	geckodriver	INFO	Listening on 127.0.0.1:32979
+1671096473367	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36353" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6tNkOC"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671096483025	Marionette	INFO	Marionette enabled
+1671096483045	Marionette	INFO	Listening on port 35097
+Read port: 35097
+WebDriver BiDi listening on ws://localhost:36353
+Read port: 35097
+Read port: 35097
+1671096486338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6tNkOC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36353/devtools/browser/aa52c1b9-7882-49c6-8716-a9ff2ad3a809
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671096682417	Marionette	INFO	Stopped listening on port 35097
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671096744185	geckodriver	INFO	Listening on 127.0.0.1:39227
+1671096744626	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48343" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile47erDn"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671096757108	Marionette	INFO	Marionette enabled
+1671096757128	Marionette	INFO	Listening on port 42589
+Read port: 42589
+WebDriver BiDi listening on ws://localhost:48343
+Read port: 42589
+1671096758654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile47erDn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:48343/devtools/browser/cfc4426c-9cb2-49cc-99d2-b79e99e1c75d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+JavaScript error: https://static.zdassets.com/web_widget/latest/classic/web-widget-chat-sdk-94a352f.js, line 2: TypeError: this.$Loader is undefined
+1671096921253	Marionette	INFO	Stopped listening on port 42589
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671097812289	geckodriver	INFO	Listening on 127.0.0.1:60677
+1671097812466	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60101" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHK1kRZ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671097818350	Marionette	INFO	Marionette enabled
+1671097818367	Marionette	INFO	Listening on port 33687
+WebDriver BiDi listening on ws://localhost:60101
+Read port: 33687
+Read port: 33687
+1671097820009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHK1kRZ/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+DevTools listening on ws://localhost:60101/devtools/browser/287453f0-1a92-430b-8745-aa5fc7193017
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671097885826	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1671097915753	Marionette	INFO	Stopped listening on port 33687
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671097991613	geckodriver	INFO	Listening on 127.0.0.1:52149
+1671097992233	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52721" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefMulYE"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671098003512	Marionette	INFO	Marionette enabled
+1671098003554	Marionette	INFO	Listening on port 38531
+WebDriver BiDi listening on ws://localhost:52721
+Read port: 38531
+Read port: 38531
+1671098005142	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefMulYE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52721/devtools/browser/29593e70-7a2b-4f83-bf10-1eb4737beb12
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671098051444	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1671098164410	geckodriver	INFO	Listening on 127.0.0.1:44983
+1671098165571	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41161" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebVuZFu"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671098177054	Marionette	INFO	Marionette enabled
+1671098177250	Marionette	INFO	Listening on port 34561
+WebDriver BiDi listening on ws://localhost:41161
+Read port: 34561
+Read port: 34561
+Read port: 34561
+Read port: 34561
+Read port: 34561
+Read port: 34561
+Read port: 34561
+Read port: 34561
+1671098185939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebVuZFu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41161/devtools/browser/17d6d2b7-5c06-4d19-9dd4-361d9a6648b7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671098294853	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.zdassets.com/web_widget/latest/classic/web-widget-chat-sdk-94a352f.js, line 2: TypeError: this.$Loader is undefined
+1671098337975	Marionette	INFO	Stopped listening on port 34561
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671098355585	Marionette	INFO	Stopped listening on port 38531
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671098418332	geckodriver	INFO	Listening on 127.0.0.1:53581
+1671098418941	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48149" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejohX3o"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671098432778	Marionette	INFO	Marionette enabled
+1671098432798	Marionette	INFO	Listening on port 35579
+WebDriver BiDi listening on ws://localhost:48149
+Read port: 35579
+Read port: 35579
+1671098434558	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejohX3o/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:48149/devtools/browser/82d44bd1-85e6-41a7-b24a-c0c565ce8718
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671098484224	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1671098584829	Marionette	INFO	Stopped listening on port 35579
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671099506164	geckodriver	INFO	Listening on 127.0.0.1:51913
+1671099506862	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34153" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYjdztP"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671099511982	Marionette	INFO	Marionette enabled
+1671099512009	Marionette	INFO	Listening on port 45001
+WebDriver BiDi listening on ws://localhost:34153
+Read port: 45001
+1671099515591	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYjdztP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34153/devtools/browser/df5ba6d1-4185-4fe6-ac24-1497126ab0a4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671099596787	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.zdassets.com/web_widget/latest/classic/web-widget-chat-sdk-94a352f.js, line 2: TypeError: this.$Loader is undefined
+1671099807169	Marionette	INFO	Stopped listening on port 45001
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671099902859	geckodriver	INFO	Listening on 127.0.0.1:57093
+1671099903503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48903" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCwMo9E"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671099916394	Marionette	INFO	Marionette enabled
+1671099916430	Marionette	INFO	Listening on port 37701
+WebDriver BiDi listening on ws://localhost:48903
+Read port: 37701
+Read port: 37701
+Read port: 37701
+1671099919438	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCwMo9E/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:48903/devtools/browser/b7a384c1-033e-4316-bcf2-5e5590cbfe8e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671099981457	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.zdassets.com/web_widget/latest/classic/web-widget-chat-sdk-94a352f.js, line 2: TypeError: this.$Loader is undefined
+1671100028537	Marionette	INFO	Stopped listening on port 37701
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671100471944	geckodriver	INFO	Listening on 127.0.0.1:38465
+1671100472495	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50581" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenkuYKP"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671100479995	Marionette	INFO	Marionette enabled
+1671100480015	Marionette	INFO	Listening on port 41241
+Read port: 41241
+WebDriver BiDi listening on ws://localhost:50581
+1671100481530	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenkuYKP/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:50581/devtools/browser/9c44cac4-5991-4326-af58-5a38e0d61927
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671100526886	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.zdassets.com/web_widget/latest/classic/web-widget-chat-sdk-94a352f.js, line 2: TypeError: this.$Loader is undefined
+1671100602175	Marionette	INFO	Stopped listening on port 41241
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671101228564	geckodriver	INFO	Listening on 127.0.0.1:53153
+1671101229145	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56025" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileL3n7gN"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671101232614	Marionette	INFO	Marionette enabled
+1671101232628	Marionette	INFO	Listening on port 44171
+WebDriver BiDi listening on ws://localhost:56025
+Read port: 44171
+1671101233650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileL3n7gN/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:56025/devtools/browser/c94d9ff5-7321-4416-acdc-a0fc4e301c00
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671101274841	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.zdassets.com/web_widget/latest/classic/web-widget-chat-sdk-94a352f.js, line 2: TypeError: this.$Loader is undefined
+1671101419631	Marionette	INFO	Stopped listening on port 44171
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671101423653	geckodriver	INFO	Listening on 127.0.0.1:45761
+1671101423836	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36475" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileX8KOa1"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671101427677	Marionette	INFO	Marionette enabled
+1671101427691	Marionette	INFO	Listening on port 40037
+WebDriver BiDi listening on ws://localhost:36475
+Read port: 40037
+1671101428614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileX8KOa1/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:36475/devtools/browser/7dcabbbb-8da5-487f-89d1-05c08566b25c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671101467400	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.zdassets.com/web_widget/latest/classic/web-widget-chat-sdk-94a352f.js, line 2: TypeError: this.$Loader is undefined
+1671101513854	Marionette	INFO	Stopped listening on port 40037
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671101533774	geckodriver	INFO	Listening on 127.0.0.1:60529
+1671101534386	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42265" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejRUKoz"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671101537980	Marionette	INFO	Marionette enabled
+1671101537998	Marionette	INFO	Listening on port 36471
+WebDriver BiDi listening on ws://localhost:42265
+Read port: 36471
+1671101538979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejRUKoz/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:42265/devtools/browser/77d82646-40f5-4849-9425-f742ea20a8f4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671101580760	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.zdassets.com/web_widget/latest/classic/web-widget-chat-sdk-94a352f.js, line 2: TypeError: this.$Loader is undefined
+1671101592943	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1671101642375	Marionette	INFO	Stopped listening on port 36471
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671101658885	geckodriver	INFO	Listening on 127.0.0.1:51529
+1671101659741	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59805" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIrgxBR"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671101670659	Marionette	INFO	Marionette enabled
+1671101670735	Marionette	INFO	Listening on port 34487
+WebDriver BiDi listening on ws://localhost:59805
+Read port: 34487
+1671101672335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIrgxBR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59805/devtools/browser/f8e7a22f-7c14-4bef-ab9c-1a9d8584471c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671101729809	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.zdassets.com/web_widget/latest/classic/web-widget-chat-sdk-94a352f.js, line 2: TypeError: this.$Loader is undefined
+1671101814910	Marionette	INFO	Stopped listening on port 34487
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671108769773	geckodriver	INFO	Listening on 127.0.0.1:44857
+1671108770395	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60591" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKi1nSW"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671108783173	Marionette	INFO	Marionette enabled
+1671108783193	Marionette	INFO	Listening on port 45267
+WebDriver BiDi listening on ws://localhost:60591
+Read port: 45267
+Read port: 45267
+Read port: 45267
+1671108786374	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKi1nSW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60591/devtools/browser/680fc9b2-58b1-42e3-bd2a-1c93181224b2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671108844026	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.zdassets.com/web_widget/latest/classic/web-widget-chat-sdk-94a352f.js, line 2: TypeError: this.$Loader is undefined
+1671108864870	Marionette	INFO	Stopped listening on port 45267
+1671109287454	geckodriver	INFO	Listening on 127.0.0.1:51713
+1671109288022	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "58629" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiletOnTg8"
+*** You are running in headless mode.
+1671109293486	Marionette	INFO	Marionette enabled
+1671109293506	Marionette	INFO	Listening on port 40463
+WebDriver BiDi listening on ws://localhost:58629
+Read port: 40463
+1671109294628	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletOnTg8/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:58629/devtools/browser/1c541410-374c-49ae-aa9a-a460f7ecb4c3
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1671109491856	geckodriver	INFO	Listening on 127.0.0.1:53611
+1671109492487	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "33353" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefA7hWh"
+*** You are running in headless mode.
+1671109494371	Marionette	INFO	Marionette enabled
+1671109494385	Marionette	INFO	Listening on port 45737
+Read port: 45737
+WebDriver BiDi listening on ws://localhost:33353
+1671109495247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefA7hWh/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:33353/devtools/browser/e15b848c-32a5-4fc6-bdf6-5be00bbef079
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671109535664	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1671109545980	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1671109557673	Marionette	INFO	Stopped listening on port 45737
+1671109699512	geckodriver	INFO	Listening on 127.0.0.1:44733
+1671109700132	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "39177" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMnfjfv"
+*** You are running in headless mode.
+1671109702025	Marionette	INFO	Marionette enabled
+1671109702040	Marionette	INFO	Listening on port 43333
+WebDriver BiDi listening on ws://localhost:39177
+Read port: 43333
+1671109702972	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMnfjfv/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:39177/devtools/browser/d32a48cf-434b-4e0d-a6ec-36fa592a6205
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1671109747784	geckodriver	INFO	Listening on 127.0.0.1:59903
+1671109748407	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "41369" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilen0sQUb"
+*** You are running in headless mode.
+1671109751108	Marionette	INFO	Marionette enabled
+1671109751130	Marionette	INFO	Listening on port 40343
+WebDriver BiDi listening on ws://localhost:41369
+Read port: 40343
+1671109753013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilen0sQUb/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+DevTools listening on ws://localhost:41369/devtools/browser/b723a33c-7dc4-4ef8-950a-7437d2afdc4e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671109791951	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.zdassets.com/web_widget/latest/classic/web-widget-chat-sdk-94a352f.js, line 2: TypeError: this.$Loader is undefined
+1671109802706	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1671109809186	Marionette	INFO	Stopped listening on port 40343
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1671112538386	geckodriver	INFO	Listening on 127.0.0.1:48115
+1671112539117	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "33627" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7uWwSw"
+*** You are running in headless mode.
+1671112553898	Marionette	INFO	Marionette enabled
+1671112553974	Marionette	INFO	Listening on port 42507
+Read port: 42507
+WebDriver BiDi listening on ws://localhost:33627
+Read port: 42507
+Read port: 42507
+Read port: 42507
+Read port: 42507
+Read port: 42507
+Read port: 42507
+1671112560955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7uWwSw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33627/devtools/browser/14fef00a-3408-4147-beab-3396d7e46962
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671112629092	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+Exiting due to channel error.
+Exiting due to channel error.
+1671113029491	geckodriver	INFO	Listening on 127.0.0.1:32947
+1671113030233	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "38997" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVCIKgy"
+*** You are running in headless mode.
+1671113037453	Marionette	INFO	Marionette enabled
+1671113037514	Marionette	INFO	Listening on port 37719
+Read port: 37719
+WebDriver BiDi listening on ws://localhost:38997
+Read port: 37719
+1671113040389	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVCIKgy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38997/devtools/browser/228955f1-1b21-4b54-9cf0-012cc4796e88
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671113229780	geckodriver	INFO	Listening on 127.0.0.1:43017
+1671113230460	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "40573" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGbrEL6"
+*** You are running in headless mode.
+1671113244138	Marionette	INFO	Marionette enabled
+1671113244177	Marionette	INFO	Listening on port 42755
+Read port: 42755
+WebDriver BiDi listening on ws://localhost:40573
+Read port: 42755
+1671113246162	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGbrEL6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40573/devtools/browser/89ce782d-b5bf-462e-ac86-c3b24517c493
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671113313427	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1671113549894	geckodriver	INFO	Listening on 127.0.0.1:42741
+1671113550543	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "41659" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileS5Jnvn"
+*** You are running in headless mode.
+1671113560213	Marionette	INFO	Marionette enabled
+1671113560236	Marionette	INFO	Listening on port 35483
+WebDriver BiDi listening on ws://localhost:41659
+Read port: 35483
+1671113561596	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileS5Jnvn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41659/devtools/browser/b14fe9e9-81f1-488e-9490-53950ccd0eae
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671113631113	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.zdassets.com/web_widget/latest/classic/web-widget-chat-sdk-94a352f.js, line 2: TypeError: this.$Loader is undefined
+Exiting due to channel error.
+Exiting due to channel error.
+1671113925489	geckodriver	INFO	Listening on 127.0.0.1:47761
+1671113925905	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "45521" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerZNR3S"
+*** You are running in headless mode.
+1671113942466	Marionette	INFO	Marionette enabled
+1671113942486	Marionette	INFO	Listening on port 45093
+WebDriver BiDi listening on ws://localhost:45521
+Read port: 45093
+Read port: 45093
+1671113944130	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerZNR3S/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45521/devtools/browser/66171691-3f02-4106-a97f-cac5f67a6343
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671114010115	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1671114052901	Marionette	INFO	Stopped listening on port 45093
+1671114468944	geckodriver	INFO	Listening on 127.0.0.1:51685
+1671114469657	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "33545" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQ8SppR"
+*** You are running in headless mode.
+1671114481848	Marionette	INFO	Marionette enabled
+1671114481896	Marionette	INFO	Listening on port 36507
+WebDriver BiDi listening on ws://localhost:33545
+Read port: 36507
+1671114483043	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQ8SppR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33545/devtools/browser/70e281c3-3962-4816-aa04-11243e4bedb3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671114553726	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+1671114666289	geckodriver	INFO	Listening on 127.0.0.1:52785
+1671114667041	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "39803" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZJgzUL"
+*** You are running in headless mode.
+1671114676015	Marionette	INFO	Marionette enabled
+1671114676080	Marionette	INFO	Listening on port 46165
+Read port: 46165
+WebDriver BiDi listening on ws://localhost:39803
+Read port: 46165
+1671114678801	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZJgzUL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39803/devtools/browser/c809900e-a0a5-4ded-ac12-c54bfc64f0c1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671115305493	geckodriver	INFO	Listening on 127.0.0.1:38865
+1671115306331	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "53487" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehzD9sS"
+*** You are running in headless mode.
+1671115329491	Marionette	INFO	Marionette enabled
+1671115329522	Marionette	INFO	Listening on port 40069
+Read port: 40069
+WebDriver BiDi listening on ws://localhost:53487
+Read port: 40069
+1671115332134	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehzD9sS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53487/devtools/browser/84476d1e-2dbe-4cce-b06e-03e8469537a3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+Exiting due to channel error.
+Exiting due to channel error.
+1671115701339	geckodriver	INFO	Listening on 127.0.0.1:54075
+1671115701941	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43657" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefcrCf4"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671115715775	Marionette	INFO	Marionette enabled
+1671115715818	Marionette	INFO	Listening on port 40563
+WebDriver BiDi listening on ws://localhost:43657
+Read port: 40563
+Read port: 40563
+Read port: 40563
+1671115718865	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefcrCf4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43657/devtools/browser/5d080f47-3e70-45e6-819d-b376ae861134
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://zm.liquidhome.tech."
+1671115814888	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.zdassets.com/web_widget/latest/classic/web-widget-chat-sdk-94a352f.js, line 2: TypeError: this.$Loader is undefined

@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block title %}Reduce Amount{% endblock %}
+{% block stylesheet %}
+    <style>
+    body {
+        border: 3px solid orange;
+        background-color: #f5f1f1;
+    }
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        text-align: center;
+        font-size: 150%;
+        margin: 1rem;
+        border: 2px solid orange;
+    }
+    input {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    button {
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+    }
+    </style>
+{% endblock %}
+{% block content %}
+    <h1>Buy Liquid Data</h1>
+    <div class="main">
+    <form action="{% url 'buy-liquid-data' %}" method="post">
+    {% csrf_token %}
+        <select class="form-select" aria-label="Default select example" required name="package">
+            <option selected disabled>Choose Data Package..</option>
+            {% for package in packages %}
+                <option value="{{ package.identifier }}">{{ package.name }} - K{{ package.price }}</option>
+            {% endfor %}
+
+        </select>
+        <div class="mb-3">
+{#            <label for="exampleFormControlInput1" class="form-label">Payment Link (URL)</label>#}
+            <input type="text" class="form-control" id="exampleFormControlInput1" required name="lte-number" placeholder="LET Number">
+        </div>
+        <button type="submit" class="btn btn-warning">Buy Now</button>
+    </form>
+    </div>
+{% endblock %}
