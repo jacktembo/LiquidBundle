@@ -31,7 +31,7 @@ def get_transaction_token(payment_url):
 
 
 def automate(lte_number, package):
-    driver = webdriver.Firefox()
+    driver = webdriver.Firefox(options=options)
     driver.set_script_timeout(180)
     driver.set_page_load_timeout(180)
     print('Selenium is opening the url opening https://zm.liquidhome.tech/myliquid/')
