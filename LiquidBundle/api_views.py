@@ -39,8 +39,12 @@ class ReduceAmount(APIView):
         payment_url = request.data.get('payment_url', None)
         if payment_url is not None:
             transaction_token = get_transaction_token(payment_url)
-            data = {"Request": "UpdateToken", "CompanyToken": company_token, "TransactionToken": transaction_token,
-                    "PaymentAmount": payment_amount}
+            data = {
+                "Request": "updateToken", "CompanyToken": company_token,
+                "TransactionToken": transaction_token, "CustomerEmail": "liquiddata@protonmail.com",
+                "CustomerFirstName": "John", "CustomerLastName": "Smith", "CustomerAddress": "Lusaka 10101",
+                "CustomerPhone": "0977777777", "PaymentAmount": payment_amount
+            }
 
             r = requests.post(url, data=json.dumps(data))
             if r.json().get('Code', 1) == '000':

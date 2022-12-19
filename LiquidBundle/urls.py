@@ -23,12 +23,15 @@ admin.AdminSite.site_title = 'Jack Tembo Administration'
 
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('login/', views.login_view, name='login'),
+    path('', views.reduce_amount, name='index'),
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
     path('reduce-amount-api', api_views.ReduceAmount.as_view()),
     path('pay', api_views.PayInvoice.as_view()),
     path('reduce-amount', views.reduce_amount, name='reduce-amount'),
     path('buy-liquid-data', views.buy_liquid_bundle, name='buy-liquid-data'),
+    path('deposit', views.mobile_payment, name='deposit'),
+    path('pay-query', views.pay_query, name='pay-query'),
 
 ]

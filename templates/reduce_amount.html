@@ -39,6 +39,13 @@
             {% endfor %}
 
         </select>
+        <select class="form-select" aria-label="Default select example" required name="package">
+            <option selected disabled>Choose Data Package..</option>
+            {% for service_company in service_companies %}
+                <option value="{{ service_company.id }}">{{ service_company.name }}</option>
+            {% endfor %}
+
+        </select>
         <div class="mb-3">
 {#            <label for="exampleFormControlInput1" class="form-label">Payment Link (URL)</label>#}
             <input type="text" class="form-control" id="exampleFormControlInput1" required name="payment-url" placeholder="Payment Link">

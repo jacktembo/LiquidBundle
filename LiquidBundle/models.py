@@ -23,8 +23,10 @@ class CompletedTransaction(models.Model):
     date_time_created = models.DateTimeField(auto_now_add=True)
     type = models.CharField(max_length=255)
     package = models.ForeignKey(LiquidDataPackage, on_delete=models.CASCADE, blank=True, null=True)
+    description = models.CharField(max_length=255, default='Topup')
     lte_number = models.CharField(max_length=255)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
+    amount = models.FloatField(default=0.0)
 
     def __str__(self):
         return f"{self.lte_number} - {self.package}"
@@ -44,17 +46,6 @@ class SavedTransaction(models.Model):
     date_time_created = models.DateTimeField(auto_now_add=True)
 
 
-class Agent(models.Model):
-    first_name = models.CharField(max_length=255)
-    last_name = models.CharField(max_length=255)
-    phone_number = models.CharField(max_length=255)
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    balance = models.FloatField(default=0.0)
-
-    def __str__(self):
-        return f"{self.first_name} {self.last_name}"
-
-
 class ServiceCompany(models.Model):
     """
     A company providing the service that is being bought online.
@@ -71,3 +62,24 @@ class ServiceCompany(models.Model):
 
     class Meta:
         verbose_name_plural = 'Service Companies'
+
+
+class UserWallet(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    available_balance = models.FloatField(default=0.0)
+    minimum_deposit = models.FloatField(default=20.00)
+
+    def __str__(self):
+        return f"{self.user} - {self.available_balance}"
+
+
+class KazangSession(models.Model):
+    session_uuid = models.CharField(max_length=255)
+    date_time_created = models.DateTimeField(auto_now_add=True)
+
+
+class PaymentTransaction(models.Model):
+    session_uuid = models.CharField(max_length=255)
+    phone_number = models.CharField(max_length=255)
+    amount = models.FloatField()
+    reference_number = models.CharField(max_length=255)

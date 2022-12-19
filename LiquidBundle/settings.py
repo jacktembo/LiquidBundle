@@ -77,12 +77,25 @@ WSGI_APPLICATION = 'LiquidBundle.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
+dev_db = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3')
     }
 }
+prod_db = {
+    'default': {
+        'NAME': 'all1zed_liquid',
+        'ENGINE': 'mysql.connector.django',
+        'USER': 'all1zed_root',
+        'PASSWORD': 'Root2023!',
+        'OPTIONS': {
+          'autocommit': True,
+        },
+    }
+}
+
+DATABASES = dev_db
 
 
 # Password validation

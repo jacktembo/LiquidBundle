@@ -1,4 +1,5 @@
 from django.contrib import admin
+
 from .models import *
 
 
@@ -16,13 +17,6 @@ class ServiceCompanyAdmin(admin.ModelAdmin):
     ]
 
 
-@admin.register(Agent)
-class AgentAdmin(admin.ModelAdmin):
-    list_display = [
-        'first_name', 'last_name', 'phone_number', 'balance'
-    ]
-
-
 @admin.register(SavedTransaction)
 class SavedTransactionAdmin(admin.ModelAdmin):
     list_display = [
@@ -34,8 +28,30 @@ class SavedTransactionAdmin(admin.ModelAdmin):
 
 @admin.register(CompletedTransaction)
 class CompletedTransactionAdmin(admin.ModelAdmin):
-    list_display = ['date_time_created', 'type', 'package', 'lte_number', 'user']
+    list_display = ['date_time_created', 'type', 'package', 'lte_number', 'user', 'amount', 'description']
     list_filter = [
         'date_time_created', 'user'
     ]
 
+
+@admin.register(UserWallet)
+class UserWalletAdmin(admin.ModelAdmin):
+    list_display = [
+        'user', 'available_balance', 'minimum_deposit',
+    ]
+
+
+@admin.register(KazangSession)
+class KazangSessionAdmin(admin.ModelAdmin):
+    list_display = [
+        'session_uuid', 'date_time_created'
+    ]
+    list_filter = ['date_time_created']
+
+
+@admin.register(PaymentTransaction)
+class PaymentTransactionAdmin(admin.ModelAdmin):
+    list_display = [
+        'phone_number', 'amount', 'reference_number', 'session_uuid'
+    ]
+    list_filter = ['session_uuid']
