@@ -24,7 +24,8 @@ admin.AdminSite.site_title = 'Jack Tembo Administration'
 
 urlpatterns = [
     path('login/', views.login_view, name='login'),
-    path('', views.reduce_amount, name='index'),
+    path('logout', views.logout_view, name='logout'),
+    path('', views.index, name='index'),
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
     path('reduce-amount-api', api_views.ReduceAmount.as_view()),

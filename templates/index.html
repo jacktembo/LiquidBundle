@@ -1,10 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block title %}
+Home | Liquid Bundles
+{% endblock %}
+{% block stylesheet %}
+    <style>
+    .item {
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+        height: 5rem;
+        border: 1px solid orange;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        color: orange;
+    }
+    @media screen and (min-width: 768px) {
+        .item {
+            width: 50vw;
+            height: 5rem;
+            padding-left: 10rem;
+        }
+        .home {
+            text-align: center;
+        }
+    }
+    .bal {
+        font-size: 75%;
+        color: green;
+        font-weight: bold;
+    }
+    .balance {
+        margin-left: 1rem;
+    }
+    </style>
+{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="row">
+      <div class="col-md-3 balance"><h1>Balance: <span class="bal">ZMW {{ balance }}</span></h1></div>
+      <a href="{% url 'deposit' %}"><div class="col-md-3 item"><h1>Deposit</h1></div></a>
+      <a href="{% url 'reduce-amount' %}">    <div class="col-md-3 item"><h1>Reduce Amount</h1></div></a>
+      <a href="{% url 'logout' %}"> <div class="col-md-3 item"><h1>Log Out</h1></div></a>
+  </div>
+</div>
 
-</body>
-</html>
+{% endblock %}

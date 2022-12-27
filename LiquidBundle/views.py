@@ -13,13 +13,18 @@ from .models import *
 
 url = "https://secure.3gdirectpay.com/API/v7/index.php"
 
-
+@login_required(login_url='/login/')
 def index(request):
-    return HttpResponse('Welcome! Thank you for using our service')
+    available_balance = request.user.userwallet.available_balance
+    context = {
+        'balance': available_balance
+    }
+    return render(request, 'index.html', context)
 
 
 @login_required(login_url='/login/')
 def reduce_amount(request):
+    available_balance = request.user.userwallet.available_balance
     if request.method == 'GET':
         service_companies = ServiceCompany.objects.all()
         context = {
@@ -31,31 +36,34 @@ def reduce_amount(request):
         company_token = service_company.dpo_company_token
         payment_url = request.POST.get('payment-url', None)
         transaction_token = get_transaction_token(payment_url)
-        payment_amount = 1
+        payment_amount = 10
         data = {
             "Request": "updateToken", "CompanyToken": company_token,
             "TransactionToken": transaction_token, "CustomerEmail": "lusakazambia@proton.me",
             "CustomerFirstName": "John", "CustomerLastName": "Smith", "CustomerAddress": "Lusaka 10101",
-            "CustomerPhone": "0977777777", "PaymentAmount": payment_amount
+            "CustomerPhone": "0977777777", "PaymentAmount": payment_amount,
+            'TransactionExpiryDate': '2023/12/22 11:35:08'
         }
         data2 = {
             "Request": "verifyToken", "CompanyToken": company_token,
             "TransactionToken": transaction_token,
         }
         verify_transaction = requests.post(url, json=data2)
+        print(verify_transaction.json())
         transaction_amount = verify_transaction.json().get('TransactionAmount', None)
-        r = requests.post(url, data=json.dumps(data))
-        if r.json().get('Code', 1) == '000':
-            CompletedTransaction.objects.create(
-                type='Sale', lte_number='N/A', user=request.user, amount=float(transaction_amount),
-                description=verify_transaction.json().get('ServiceDescription', None)
-            )
-            context = {
-                'transaction_token': transaction_token,
-            }
-            return render(request, 'success_amount_reduced.html', context)
-        else:
-            return HttpResponse('Something went wrong. Please try again')
+        if 2 == 2:
+            r = requests.post(url, data=json.dumps(data))
+            if r.json().get('Code', 1) == '000':
+                CompletedTransaction.objects.create(
+                    type='Sale', lte_number='N/A', user=request.user, amount=float(transaction_amount),
+                    description=verify_transaction.json().get('ServiceDescription', None)
+                )
+                context = {
+                    'transaction_token': transaction_token,
+                }
+                return render(request, 'success_amount_reduced.html', context)
+            else:
+                return HttpResponse('Something went wrong. Please try again')
 
 
 @login_required(login_url='/login/')
@@ -90,7 +98,8 @@ def login_view(request):
 
 
 def logout_view(request):
-    return logout(request)
+    logout(request)
+    return redirect('index')
 
 
 session_uuid = kazang.session_uuid
@@ -122,12 +131,12 @@ def pay_query(request):
 
     reference_number = request.POST.get('reference', None)
     phone_number = request.POST.get('phone')
-    amount = request.POST.get('amount', None)
+    amount = float(request.POST.get('amount', None))
     user_wallet = request.user.userwallet
     query = kazang.airtel_pay_query(phone_number, amount, reference_number)
     if query.get('response_code', None) == '0':
-        user_wallet.available_balance += float(amount) / 100
+        user_wallet.available_balance += amount / 100
         user_wallet.save()
-        kazang.airtel_cash_in('0971977252', float(amount))
+        kazang.airtel_cash_in('0971977252', amount - (0.02 * amount))
         return render(request, 'payment_successful.html')
     return HttpResponse(query.get('response_message', None))
